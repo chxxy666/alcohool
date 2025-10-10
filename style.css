@@ -130,3 +130,23 @@ footer{
   padding:22px 0 36px; color:var(--muted); text-align:center; border-top:1px solid rgba(0,0,0,.08);
 }
 footer p{ margin:0; font-size:14px; }
+/* 活動資訊區塊樣式 */
+.media-block{
+  padding:60px 20px;
+  display:flex;
+  justify-content:center;
+}
+.media-block .frame{
+  width:min(100%, 1000px);
+  background:#fff;
+  border:1px solid #A1887F33;
+  border-radius:12px;
+  padding:10px;
+  box-shadow:0 8px 24px rgba(0,0,0,.08);
+}
+.media-block img{
+  width:100%;
+  height:auto;
+  border-radius:8px;
+  display:block;
+}
